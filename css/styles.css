@@ -8,15 +8,18 @@ body {
 }
 
 .content-box {
-	width: 80%;
+	width: 70%;
 	background-color: #FFF;
 	margin: 0 auto;
+	margin-top: 40px;
 	box-shadow: 2px 2px 6px #555;
 }
 
-.pull-left {
+.logo {
 	float: left;
 	margin-right: 10px;
+	width: 100px;
+	height: 100px;
 }
 
 .pizza-size {
@@ -24,17 +27,30 @@ body {
 	margin: 0 auto;
 }
 
-.title {
+.order {
+	width: 30%;
+	float: right;
+}
+
+h1 {
 	font-size: 40px;
 	margin: center;
+}
+
+.hours {
+	float: right;
 }
 
 .description {
 	font-size: 20px;
 }
 
+nav {
+	clear: both;
+}
+
 nav ul {
-	background-color: #745A6E;
+	background-color: #9C75CA;
 	
 }
 
@@ -45,7 +61,7 @@ nav li {
 nav a {
 	display: inline-block;
 	padding: 10px;
-	color: #D68355;
+	color: #F1F1F1;
 	font-weight: bold;
 }
 
@@ -58,4 +74,9 @@ nav a:hover {
 	background-color: #AB807D;
 }
 
+.footer {
+	border-style:solid;
+	border-top:thin double #ADADAD;
+	font-style: italic;
+}
 
