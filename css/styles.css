@@ -1,8 +1,10 @@
+@import url(http://fonts.googleapis.com/css?family=Stint+Ultra+Expanded);
 @import url(reset.css);
 
 body {
 	background-image: url(../img/background.png);
 	background-repeat: repeat;
+	font-family: 'Stint Ultra Expanded', cursive;
 	font-size: 18px;
 	padding: 10px;
 }
@@ -30,6 +32,8 @@ body {
 .order {
 	width: 30%;
 	float: right;
+	margin-left: 10px;
+	margin-bottom: 10px;
 }
 
 section {
@@ -39,6 +43,7 @@ section {
 h1 {
 	font-size: 200%;
 	margin: 0 auto;
+	font-style: bold;
 }
 
 h2 {
@@ -47,15 +52,14 @@ h2 {
 	margin-bottom: 15px;
 }
 
+h3 {
+	margin-top: 5px;
+	font-size: 110%;
+}
+
 .hours {
 	float: right;
 	margin-right: 10px;
-
-}
-
-.description {
-	font-size: 20px;
-
 }
 
 nav {
@@ -74,8 +78,7 @@ nav li {
 nav a {
 	display: inline-block;
 	padding: 10px;
-	color: #F1F1F1;
-	font-weight: bold;
+	color: #74361E;
 }
 
 nav a:link, 
@@ -83,8 +86,9 @@ nav a:visited {
 	text-decoration: none;
 }
 
+.hyperlink:hover,
 nav a:hover {
-	background-color: #AB807D;
+	color: #FFF;
 }
 
 address {
@@ -93,8 +97,15 @@ address {
 
 .footer {
 	border-style:solid;
-	border-top:thin double #ADADAD;
+	border-top:thin double #000;
 	font-style: italic;
+	font-size: 70%;
 	padding: 10px;
 }
+
+.hyperlink {
+	text-decoration: none;
+	color: #000;
+}
+
 
