@@ -9,7 +9,7 @@ body {
 
 .content-box {
 	width: 70%;
-	background-color: #FFF;
+	background-image: url(../img/grunge.jpg);
 	margin: 0 auto;
 	margin-top: 40px;
 	box-shadow: 2px 2px 6px #555;
@@ -32,17 +32,30 @@ body {
 	float: right;
 }
 
+section {
+	padding: 10px;
+}
+
 h1 {
-	font-size: 40px;
-	margin: center;
+	font-size: 200%;
+	margin: 0 auto;
+}
+
+h2 {
+	font-size: 150%;
+	margin-top: 15px;
+	margin-bottom: 15px;
 }
 
 .hours {
 	float: right;
+	margin-right: 10px;
+
 }
 
 .description {
 	font-size: 20px;
+
 }
 
 nav {
@@ -74,9 +87,14 @@ nav a:hover {
 	background-color: #AB807D;
 }
 
+address {
+	padding: 10px;
+}
+
 .footer {
 	border-style:solid;
 	border-top:thin double #ADADAD;
 	font-style: italic;
+	padding: 10px;
 }
 
