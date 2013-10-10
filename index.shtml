@@ -16,6 +16,7 @@
 				<p class="description">Awesome wood-fired pizza with fresh ingredients baked to order. <br> Come in and eat, or call us for delivery!</p>	
 			</header>
 			
+			
 			<nav>
 				<ul>
 					<li><a href="index.shtml">Home</a></li>
@@ -30,6 +31,7 @@
 			</address>
 
 			<div class="footer">
+				<!-- moved header to server side includes -->
     			<!--#include virtual="inc/footer.html" -->
 			</div>
 		</div>

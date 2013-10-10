@@ -81,6 +81,7 @@
 	    	</section>
 	    			
     		<div class="footer">
+		 		<!-- moved header to server side includes -->
     			<!--#include virtual="inc/footer.html" -->
 			</div>
     	</div>
